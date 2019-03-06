@@ -94,25 +94,6 @@
             'label_code': '',
             'language': localStorage.getItem('lang')
           }
-
-          this.$axios.post(this.url1, da).then((res) => {
-            if (res.data.code == 200) {
-              let c = {}
-              res.data.data.map(function(s) {
-                if (c[s.code]) {
-                  c[s.code].push(s)
-                } else {
-                  c[s.code] = []
-                  c[s.code].push(s)
-                }
-              })
-              localStorage.setItem('code', JSON.stringify(c))
-              this.$store.commit('SET_CODE',JSON.stringify(c))
-
-              this.reload()
-            }
-          })
-
           this.lang = !this.lang
         }).catch(() => {
           this.$message({
