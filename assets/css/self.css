@@ -1,0 +1,59 @@
+
+div.self_select  div.el-input.is-disabled input.el-input__inner{
+    background-color: rgba(0,0,0,0);
+    color: #606266;
+    border:0px;
+    cursor: auto;
+    font-size: 12px;
+}
+div.self_select i.el-icon-arrow-up:before{
+    content: '';
+
+}
+ div.self_select .el-input.is-disabled .el-input__icon{
+    cursor: auto;
+}
+.self_el_table {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.self_el_table  input{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.self_el_table li.el-select-dropdown__item{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.self_el_option{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 400px;
+}
+.self_i i{
+    margin-left: 25px;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+}
+.self_content_no{
+    text-align: center;
+}
+.self_label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .85);
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.self_data {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .65);
+    line-height: 20px;
+}
